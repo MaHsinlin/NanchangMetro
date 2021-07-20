@@ -1,0 +1,108 @@
+/****
+
+author:mayang  v1.0 <mymy_2011@sina.com>
+**/
+.mid{ width:100%; display:inline-block;}
+.i_news{ width:45%; height:304px; float:left; margin-top:10px; display:inline-block;}
+.i_news img{ width:100%;}
+
+.news_wrap{ width:100%; height:100%; overflow:hidden; position:relative;}
+.news_wrap ul{}
+.news_wrap li{ float:left;}
+.news_wrap li img{ width:454.5px; height:304px;}
+
+.p_title{width:334px; height:0; border-bottom:rgb(0,122,195) 33px solid;border-bottom:rgba(0,122,195,0.8) 33px solid; position:absolute; top:271px; left:0; z-index:3; border-right:30px solid transparent; color:#FFF;}
+.p_title #p_title{ font-size:14px; line-height:30px; margin-left:30px;}
+
+.i_newslist{width:33%; height:294px; float:left; position:relative; margin-top:20px;}
+.horizontal{width:176px; height:0; border-bottom:#E50039 7px solid; position:absolute; top:0; left:0; z-index:3; border-right:7px solid transparent;}
+.news_i{ background:#eeeef0; margin:0; padding:0 16px; position:relative;height:294px;}
+.news_i h3{ font-size:16px; line-height:60px; text-align:center; font-weight:normal; margin:1px 0 0 0; padding-top:9px; overflow:hidden; height:50px;}
+.news_i p{ text-indent:2em; color:#000; margin:0 auto; width:90%;  height: 48px;line-height: 16px;
+	text-overflow: ellipsis;
+  overflow: hidden;}
+  .news_i p a{ color:#777;}
+.more{ float:right; width:43px;margin-top:6px;}
+.more img{ width:100%;}
+
+.news_i ul{ margin-top:20px; padding-bottom:10px;}
+.news_i li{ line-height:30px; height:30px; width:100%; border-bottom:#FFF 1px solid; font-size:14px;}
+.news_i li span{ float:left;width: 280px;overflow:hidden;height:100%;text-overflow: ellipsis;
+  white-space: nowrap;}
+.arrow_right{ width:0; height:0; border-bottom:5px solid transparent;
+border-top:5px solid transparent;
+border-left:5px solid #333; float:right; margin-top:12px;}
+
+.i_service{ width:21%; float:right; background:#eeeef0; font-size:16px; margin-top:20px; height:294px;}
+.i_service ul{ width:90%; margin:2px;}
+.i_service li{ width:100%; height:26px;line-height:26px; margin-top:20px; }
+.i_service li .s_title{ border-bottom:#FFF 1px solid; line-height:44px; height:44px; margin-left:54px; text-indent:2em;}
+
+.i_service a{ /*color:#5f5e5c;*/}
+.icon{ width:25px; height:30px; float:left; margin-left:20px; margin-top:8px;}
+.icon img{ width:100%;}
+
+
+/***map*/
+.map{ background:#eeeef0; width:100%; margin-top:10px; height:418px;position:relative;}
+
+
+.map_box{ width:73%; height:336px; overflow:hidden; position:absolute; margin-left:26px; background:#FFF; margin-top:60px;}
+ .pos{ width:17px; height:24px;  position:absolute;z-index:2200; }
+.diag{width:160px; height:30px; background:#000; color:#fff; position:absolute;z-index:2200;}
+.diag ul,.diag li{list-style:none;margin:0;padding:0; text-align:center;}
+.diag ul{ width:100%;}
+.diag li{ width:50%; float:left; line-height:30px; cursor:hand;}
+.ui-widget-content{border:none;}
+.zoombig,.zoomsmall{ position:absolute;right:0; width:40px; height:40px;cursor:hand; z-index:3000;}
+.zoombig{top:5px; right:5px;}
+.zoomsmall{top:50px; right:5px;}
+.zoombig img,.zoomsmall img{width:100%;}
+
+.fareSeach{ position:absolute; margin-left:796px;width:16%;}
+
+.startstation{ position:absolute;margin-left:15px;top:110px; width:168px;}
+
+.endstation{ position:absolute;margin-left:15px;top:176px;width:168px;}
+.start_icon,.end_icon{width:36px;height:36px;float: left;}
+.start_icon img,.end_icon img{ width:100%;}
+
+.fareSeach select{ float:left;margin-left:10px;margin-top: 8px;font-size:16px;font-family: Microsoft Yahei;}
+.price{margin-top: 262px;
+margin-left: 20px;
+font-size: 18px;
+width:100%;
+position:absolute;
+}
+.miles{margin-top: 328px;
+margin-left: 20px;
+font-size: 18px;
+width:100%;
+position:absolute;
+}
+.price .p_t, .miles .m_t{
+float:left;
+margin-left:3px;
+
+}
+.lines{
+	/*color: #e50039;
+    font-size: 40px;*/
+    float: left;
+    height:24px;
+    width:105px;
+    margin-left:16px;
+    border-bottom: 1px solid #e50039;
+}
+
+
+
+.specialLink{ background:#e4e8f1; width:100%; height:240px; margin-top:10px; position:relative;}
+.specialLink ul{ width:98%; margin:0 auto; padding-top:50px;}
+.specialLink li{ width:22%; margin:20px 14px; float:left; position:relative;}
+.specialLink li img{ width:100%;}
+.sp_title{width:103px; height:0;border-bottom:rgb(0,122,195) 40px solid; border-bottom:rgba(0,122,195,0.8) 40px solid; position:absolute; bottom:3px; left:0; z-index:3; border-right:42px solid transparent; color:#FFF; }
+.sp_title .zh{ font-size:20px; font-family:System; font-weight:bold;  margin-top:9px; margin-left:15px;}
+.sp_title .en{ margin-left:15px;display:none;}
+
+
